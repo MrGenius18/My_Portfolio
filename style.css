@@ -1395,17 +1395,41 @@
     /* ~~ ~~ My Services ~~ ~~ */
     .sub-title {
         text-align: center;
-        font-size: 25px;
-        padding-bottom: 70px;
+        font-size: 35px;
+        padding-bottom: 50px;
         text-decoration: underline;
         text-underline-offset: 10px;
         margin-top: -100px;
+        margin-left: -35px;
     }  
+    .services-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(259px, 1fr));
+        grid-gap: 50px;
+        margin-top: 5px;
+        margin-left: -40px;
+    }
+    .services-list div i {
+        font-size: 50px;
+        margin-bottom:20px;
+        margin-left: 50px;
+    }
+    .services-list div h2 {
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 15px;
+        margin-left: -20px;
+    }
+    .services-list div p {
+        font-size: 12px;
+        font-weight: 200;
+        margin-bottom: 15px;
+        margin-left: -20px;
+        text-align: justify;
+    }
 
 
-
-
-
+    /* ~~ ~~ Skills ~~ ~~ */
 
 
 
