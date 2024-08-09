@@ -1131,6 +1131,7 @@
 
 @media screen and (max-width: 600px)
 {
+
     .logo{
         margin-top: -40px;
         margin-left: 30px;
@@ -1146,12 +1147,24 @@
         opacity: 0;
         animation: slideLogo 1s ease forwards;
     }
+
+    .navlist li a{
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 0.8rem;
+        color: #fff;
+        position: relative;
+        opacity: 0;
+        animation: slideLeft 0.5s ease forwards;
+        animation-delay: calc(0.2s * var(--i));
+    }
     .navlist{
-        margin-top: 50px;
         display: flex;
-        gap: 0.6rem;
+        margin-top: 15px;
+        margin-left: -110px;
+        gap: 0.7rem;
         height: 15vh;
-        width: 60%;
+        width: 100%;
         justify-content: center;
         align-items: center;
         position: fixed;
@@ -1159,13 +1172,16 @@
         animation: slideLeft 0.5s ease forwards;
         animation-delay: calc(0.2s * var(--i));
     }
+
     .left-container{
         background: #262525;
         width: 70%;
         padding-left: 1rem;
     }
+
     .content{
         margin-left: 1rem;
+        margin-top: 10px;
     }
     .content h3{
         font-size: 1rem;
@@ -1175,7 +1191,7 @@
         animation-delay: 0.2s;
     }
     .content .intro{
-        font-size: 1.6rem;
+        font-size: 1.4rem;
         color: #ffffff;
         opacity: 0;
         animation: slideRight 0.5s ease forwards;
@@ -1196,7 +1212,7 @@
         animation-delay: 0.7s;
     }
     .content h1 span{
-        font-size: 1.3rem;
+        font-size: 1.12rem;
         color: #5db9ee;
         opacity: 0;
         animation: slideLeft 1s ease forwards;
@@ -1212,7 +1228,9 @@
         animation: slideTop 0.5s ease forwards;
         animation-delay: 0.8s;
         text-align: justify;
+        margin-bottom: -30px;
     }
+
     .design .circle{
         aspect-ratio: 1;
         position: absolute;
@@ -1222,12 +1240,14 @@
         transform: translate(-50%, -50%);
         opacity: 0.1;
     }
+
     .btn-box{
         display: flex;
         flex-direction: column;
         padding: 12px 28px;
         background: transparent;
         border-radius: 40px;
+        gap: 2rem;
         font-size: 16px;
         color: #fff;
         letter-spacing: 1px;
@@ -1237,8 +1257,9 @@
         animation: slideRight 1s ease forwards;
         animation-delay: 2.1s;
         box-shadow: 0 0 5px #5db9ee, 0 0 25px #5db9ee;
-        gap: 3rem;
     }
+
+
     .about-text {
         margin-left: 0;
         margin-top: 130px;
