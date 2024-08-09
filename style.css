@@ -1334,7 +1334,7 @@
     }
 
     .btn-box1{
-        margin-top: -20px;
+        margin-top: -30px;
         margin-left: -20px;
         display: inline-block;
         padding: 12px 28px;
@@ -1394,29 +1394,21 @@
 
     /* ~~ ~~ My Services ~~ ~~ */
     .sub-title {
-        margin-left: -50px;
         text-align: center;
-        font-size: 30px;
+        font-size: 25px;
         padding-bottom: 70px;
         text-decoration: underline;
         text-underline-offset: 10px;
         margin-top: -100px;
-    }
-
-
-
-
-
-
-
-
-    .sub-title {
-        text-align: center;
-        font-size: 40px;
-        padding-bottom: 70px;
-        text-decoration: underline;
-        text-underline-offset: 10px;
     }  
+
+
+
+
+
+
+
+
     .sub-title1 {
         padding-top: 80px;
         text-align: center;
