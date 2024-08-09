@@ -1566,7 +1566,118 @@
         text-decoration: underline;
         text-underline-offset: 10px;
     }
+    .project-content{
+        margin-left: 15px;
+        margin-right: 50px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(330px, auto));
+        grid-gap: 20px;
+    }
+    .layer h5{
+        color: #3877ff;
+        font-size: 15px;
+        font-weight: 600;
+        margin-top: 15px;
+        margin-bottom: 8px;
+    }
+    .layer p{
+        margin-left: -25px;
+        margin-right: -25px;
+        color: #000;
+        font-size: 0.8rem;
+        line-height: 1.4;
+        text-align: justify;
+    }   
+    .layer i{
+        color: #262525;
+        margin-top: -10px;
+        font-size: 20px;
+        background: transparent;
+        width: 60px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+    }
 
+    .counter-add {
+        text-align: center;
+        font-size: 25px;
+        line-height: 1;
+        margin-bottom: 35px;
+        padding-top: 25px;
+        margin-left: -10px;
+        font-weight: 400;
+    }
+    .quotes h3 {
+        margin-right: 10px;
+        margin-left: 10px;
+        text-align: justify;
+        font-size: 20px;
+        margin-top: 15px;
+        font-weight: 400;
+        color: #bbb;
+        margin-bottom: 15px;
+        opacity: 0.7;
+        line-height: 1.7rem;
+    }
+    .project-github h2 {
+        font-size: 25px;
+        margin-bottom: 20px;
+        font-weight: 400;
+    }
+
+
+    /* ~~ ~~ Contact ~~ ~~ */
+    .contact-text h2{
+        padding-right: 70px;
+        padding-top: 5px;
+        padding-bottom: 20px;
+        background-color: #262525;
+        color: #fff;
+        font-size: 30px;
+        line-height: 1;
+        text-align: center;
+        text-decoration: underline;
+        text-underline-offset: 10px;
+    }
+
+    .contact-form form{
+        margin-top: 10px;
+        position: relative;
+        margin-left: -350px;
+    }
+
+    .contact-list a {
+        color: #ffffff;
+        padding: 10px;
+        margin-left: -40px;
+        font-size: 20px;
+        margin-bottom: 10px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .contact-icons {
+        margin-top: -30px;
+        margin-bottom: 25px;
+        color: #fff;
+        font-size: 14px;
+        line-height: 1;
+        margin-left: -470px;
+        opacity: 0;
+        animation: slideTop 0.5s ease forwards;
+        animation-delay: calc(0.2s * var(--j));
+    }
+    .contact-icons a{
+        font-size: 25px;
+        text-decoration: none;
+        color: #fff;
+        opacity: 0;
+        animation: slideLeft 0.5s ease forwards;
+        animation-delay: calc(0.2s * var(--j));
+    }
 }
 
 
