@@ -324,6 +324,30 @@
     margin-bottom: 40px;
 }
 
+.btn-box1{
+    display: inline-block;
+    padding: 12px 28px;
+    background: transparent;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: 2.1s;
+    box-shadow: 0 0 5px #5db9ee, 0 0 25px #5db9ee;
+}
+
+.btn-box1:hover{
+    background: #5db9ee;
+    color: #262525;
+    box-shadow: 0 0 5px #5db9ee,
+    0 0 25px #5db9ee, 0 0 50px #5db9ee,
+    0 0 100px #5db9ee;
+}
+
 
 /* ~~ ~~ More About ~~ ~~ */
 
@@ -464,7 +488,7 @@
 }
 
 
-/* ~~ ~~ Services ~~ ~~ */
+/* ~~ ~~ My Services ~~ ~~ */
 
 .services {
     color: #fff;
@@ -1127,16 +1151,21 @@
 
 
 
+
 /* ~~  ~~  ~~ Mobile View ~~  ~~  ~~ */
 
 @media screen and (max-width: 600px)
 {
+
+    /* ~~ ~~ Up Arrow ~~ ~~ */
     .top{
         position: fixed;
         bottom: 0.8rem;
         left: 18rem;
     }
 
+
+    /* ~~ ~~ Home ~~ ~~ */
     .logo{
         margin-top: -40px;
         margin-left: 30px;
@@ -1233,7 +1262,7 @@
         animation: slideTop 0.5s ease forwards;
         animation-delay: 0.8s;
         text-align: justify;
-        margin-bottom: -30px;
+        margin-bottom: -10px;
     }
 
     .design .circle{
@@ -1264,50 +1293,130 @@
         box-shadow: 0 0 5px #5db9ee, 0 0 25px #5db9ee;
     }
 
-
+    
+    /* ~~ ~~ About ~~ ~~ */
     .about-text {
         margin-left: 0;
-        margin-top: 130px;
+        margin-top: 10px;
     }
+
     .design2 .circle2{
         opacity: 0.1;
         aspect-ratio: 1;
         position: absolute;
         border-radius: 50%;
         top: 150%;
-        left: 30%;
+        left: 32%;
         transform: translate(-50%, -50%);
     }
+
     .about-text h2 {
-        margin-left: -20px;
-        font-size: 40px;
+        margin-left: -30px;
+        font-size: 43px;
         color: #fff;
         text-decoration: underline;
         text-underline-offset: 10px;
     }
     .about-text h3 {
-        font-size: 2rem;
+        font-size: 1.8rem;
         font-weight: 600;
         color: #fff;
         line-height: 1.7;
-        margin: 10px 0 30px;
+        margin: 10px -30px 5px;
     }
     .about-text p {
         color: #bbb;
         text-align: justify;
         margin-right: 5%;
-        margin-left: -20px;
+        margin-left: -30px;
         font-size: 0.8rem;
-        line-height: 1.8rem;
-        margin-bottom: 40px;
+        line-height: 1.5rem;
     }
+
+    .btn-box1{
+        margin-top: -20px;
+        margin-left: -20px;
+        display: inline-block;
+        padding: 12px 28px;
+        background: transparent;
+        border-radius: 40px;
+        font-size: 16px;
+        color: #fff;
+        letter-spacing: 1px;
+        text-decoration: none;
+        font-weight: 600;
+        opacity: 0;
+        animation: slideRight 1s ease forwards;
+        animation-delay: 2.1s;
+        box-shadow: 0 0 5px #5db9ee, 0 0 25px #5db9ee;
+    }
+
+
+    /* ~~ ~~ More About ~~ ~~ */
+    .heading {
+        font-size: 50px;
+        text-align: center;
+        text-decoration: underline;
+        text-underline-offset: 10px;
+        text-decoration-thickness: 5px;
+        margin-bottom: 40px;
+        margin-left: -50px;
+        margin-top: -70px;
+        color: #5db9ee;
+    }
+    .experience-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(259px, 1fr));
+        grid-gap: 50px;
+        margin-top: 30px;
+        margin-left: -40px;
+    }
+
+    .head2 {
+        font-size: 50px;
+        text-align: center;
+        text-decoration: underline;
+        text-underline-offset: 10px;
+        text-decoration-thickness: 5px;
+        margin-bottom: 40px;
+        margin-left: -50px;
+        margin-top: 20px;
+        color: #5db9ee;
+    }
+    .education-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(259px, 1fr));
+        grid-gap: 50px;
+        margin-top: 30px;
+        margin-left: -40px;
+    }
+
+
+    /* ~~ ~~ My Services ~~ ~~ */
+    .sub-title {
+        margin-left: -50px;
+        text-align: center;
+        font-size: 30px;
+        padding-bottom: 70px;
+        text-decoration: underline;
+        text-underline-offset: 10px;
+        margin-top: -100px;
+    }
+
+
+
+
+
+
+
+
     .sub-title {
         text-align: center;
         font-size: 40px;
         padding-bottom: 70px;
         text-decoration: underline;
         text-underline-offset: 10px;
-    }
+    }  
     .sub-title1 {
         padding-top: 80px;
         text-align: center;
